@@ -2,6 +2,18 @@
 
 All notable changes to the email template system will be documented in this file.
 
+## [1.0.4] - 2025-03-16
+
+### Added
+- Git repository initialization
+- External references system with documentation
+- References directory structure for external email frameworks
+- EXTERNAL_REFERENCES.md documentation file
+
+### Changed
+- Updated README.md to include information about external references
+- Updated .gitignore to exclude reference repositories but include README.md
+
 ## [1.0.3] - 2025-03-16
 
 ### Changed

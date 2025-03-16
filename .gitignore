@@ -37,3 +37,7 @@ vendor/
 .env
 .env.local
 .env.*.local
+
+# Reference repositories
+references/*/
+!references/README.md

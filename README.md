@@ -122,6 +122,19 @@ For detailed information, see the following guides:
 - [**Email Style Guide**](./docs/EMAIL_STYLE_GUIDE.md) - Design standards
 - [**Component Documentation**](./docs/components/) - Component-specific guides
 - [**Email Client Guides**](./docs/client-specific/) - Client-specific optimizations
+- [**External References**](./docs/EXTERNAL_REFERENCES.md) - Information about external email frameworks
+
+## External References
+
+This project includes references to other email frameworks for inspiration and best practices. These references are stored in the `references/` directory but are not tracked in Git.
+
+To set up these references, see the instructions in [External References](./docs/EXTERNAL_REFERENCES.md).
+
+Key reference frameworks include:
+- **Cerberus** - Responsive email patterns with minimal code
+- **Email Framework** - A modular email system
+- **Simple Responsive Template** - A clean, simple responsive template
+- **Mailwind** - Tailwind CSS for emails
 
 ## License
 

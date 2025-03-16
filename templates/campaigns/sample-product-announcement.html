@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <title>New Product Announcement - Voice Automated</title>
+    <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <!--<![endif]-->
+    <style>
+        /* Base Variables */
+        :root {
+            --primary-color: #14467b; /* Darker blue */
+            --primary-light: #2490eb; /* Brighter blue */
+            --secondary-color: #e7f0fb; /* Lighter blue */
+            --text-dark: #2d3748;
+            --text-light: #4a5568;
+            --white: #ffffff;
+            --light-gray: #f7f9fc;
+            --border-color: #e2e8f0;
+            --success-color: #38a169;
+            --border-radius: 8px;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.05);
+            --transition: all 0.3s ease;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 16px;
+            width: 100% !important;
+            min-width: 100% !important;
+        }
+
+        /* Dark Mode Support */
+        @media (prefers-color-scheme: dark) {
+            body, .main-container, .body-container {
+                background-color: #1e1e1e !important;
+                color: #ffffff !important;
+            }
+
+            p, h1, h2, h3, h4, span, div, a, strong, em, li {
+                color: #ffffff !important;
+            }
+        }
+
+        /* Mobile Responsiveness */
+        @media only screen and (max-width: 600px) {
+            .responsive-table {
+                width: 100% !important;
+            }
+
+            .responsive-image {
+                width: 100% !important;
+                height: auto !important;
+                max-width: 100% !important;
+            }
+
+            .mobile-padding {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .mobile-stack {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .mobile-center {
+                text-align: center !important;
+            }
+
+            .mobile-button {
+                width: 100% !important;
+                display: block !important;
+                min-width: 0 !important;
+                padding: 15px 10px !important;
+                box-sizing: border-box !important;
+                word-break: break-word !important;
+                white-space: normal !important;
+            }
+
+            .mobile-button-container {
+                width: 100% !important;
+                display: block !important;
+                margin: 10px 0 !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                text-align: center !important;
+            }
+
+            .mobile-button-container table {
+                margin: 0 auto 15px auto !important;
+                width: 80% !important;
+            }
+        }
+
+        @media only screen and (max-width: 375px) {
+            .mobile-padding {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .mobile-button-container table {
+                width: 100% !important;
+            }
+        }
+
+        /* Animation for gradient header */
+        @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+    </style>
+    <!--[if mso]>
+    <style type="text/css">
+        body, table, td, h1, h2, h3, p, a, li, span {
+            font-family: Arial, sans-serif !important;
+        }
+
+        .gradient-bg {
+            background-color: #14467b !important;
+        }
+
+        .button-primary {
+            background-color: #2490eb !important;
+            border-radius: 0 !important;
+        }
+    </style>
+    <![endif]-->
+</head>
+<body style="margin: 0; padding: 0; background-color: #f7f9fc;">
+    <!-- Hidden preview text -->
+    <div style="display:none;font-size:1px;color:#f7f9fc;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+        Introducing our newest product - now available for Mac users!
+    </div>
+
+    <!-- Email container -->
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="body-container">
+        <tr>
+            <td align="center" bgcolor="#f7f9fc">
+                <!-- Main content container -->
+                <table role="presentation" class="responsive-table main-container" cellpadding="0" cellspacing="0" border="0" width="600" style="max-width: 600px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+
+                    <!-- Logo Header Component -->
+                    <tr>
+                        <td align="center" bgcolor="#ffffff" style="background-color: #ffffff; padding: 25px 20px;">
+                            <img src="https://example.com/logo.png" alt="Voice Automated Logo" width="160" height="auto" style="display: block; border: 0; max-width: 160px;">
+                        </td>
+                    </tr>
+
+                    <!-- Gradient Banner Header Component -->
+                    <tr>
+                        <td align="center" bgcolor="#14467b" style="background: linear-gradient(to right, #14467b, #2a6cb3, #14467b); background-size: 300% 300%; animation: gradient-shift 15s ease infinite; padding: 40px 30px; position: relative; border-radius: 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <!--[if gte mso 9]>
+                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+                                <v:fill type="gradient" color="#14467b" color2="#2a6cb3" angle="90" />
+                                <v:textbox style="mso-fit-shape-to-text:true" inset="30px,40px,30px,40px">
+                            <![endif]-->
+
+                            <h1 style="color: #ffffff; font-size: 42px; font-weight: 900; margin: 0; letter-spacing: -0.02em; line-height: 1.2; text-transform: uppercase; position: relative; text-shadow: 0 2px 4px rgba(0,0,0,0.15); text-align: center;">
+                                PRODUCT NAME
+                            </h1>
+                            <p style="font-size: 22px; font-weight: 400; margin-top: 12px; margin-bottom: 0; color: #ffffff; position: relative; text-shadow: 0 1px 2px rgba(0,0,0,0.1); text-align: center; white-space: nowrap;">
+                                Now Available for Mac
+                            </p>
+
+                            <!--[if gte mso 9]>
+                                </v:textbox>
+                            </v:rect>
+                            <![endif]-->
+                        </td>
+                    </tr>
+
+                    <!-- Text Section Component -->
+                    <tr>
+                        <td align="left" bgcolor="#ffffff" class="mobile-padding" style="background-color: #ffffff; padding: 40px 25px 30px;">
+                            <!-- Section Title (Optional) -->
+                            <h2 class="content-title" style="color: #14467b; font-size: 28px; font-weight: 700; margin-top: 0; margin-bottom: 25px; line-height: 1.3;">
+                                The Solution You've Been Waiting For
+                            </h2>
+
+                            <!-- Paragraphs -->
+                            <p style="margin-bottom: 20px; color: #4a5568; font-size: 16px; line-height: 1.6;">
+                                Hello [First Name],
+                            </p>
+
+                            <p style="margin-bottom: 20px; color: #4a5568; font-size: 16px; line-height: 1.6;">
+                                We're excited to announce that our flagship product is now available natively on macOS. No more workarounds or virtualization needed - just pure performance on the platform you prefer.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Highlight Section Component -->
+                    <tr>
+                        <td align="left" bgcolor="#ffffff" class="mobile-padding" style="background-color: #ffffff; padding: 20px 25px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin: 30px 0;">
+                                <tr>
+                                    <td bgcolor="#14467b" style="background: linear-gradient(135deg, #14467b 0%, #2490eb 80%, #14467b 100%); border-radius: 8px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); position: relative; overflow: hidden;">
+                                        <!--[if gte mso 9]>
+                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:100%;">
+                                            <v:fill type="gradient" color="#14467b" color2="#2490eb" angle="135" />
+                                            <v:textbox style="mso-fit-shape-to-text:true" inset="30px,30px,30px,30px">
+                                        <![endif]-->
+
+                                        <p style="color: #ffffff; position: relative; z-index: 2; margin: 0 0 15px; font-size: 16px; line-height: 1.6; font-weight: 500;">
+                                            <strong>No more clunky virtualization.</strong> No more separate boot partitions. Our product delivers the same performance you rely on—<em>natively</em> on macOS Monterey, Ventura, and Sonoma (Intel and Apple Silicon).
+                                        </p>
+
+                                        <!-- Primary CTA Button Component -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin: 25px auto 0; position: relative; z-index: 2;">
+                                            <tr>
+                                                <td align="center" bgcolor="#2490eb" style="background: linear-gradient(135deg, #14467b, #2490eb); border-radius: 30px; padding: 0; box-shadow: 0 10px 20px rgba(20, 70, 123, 0.2);">
+                                                    <!--[if mso]>
+                                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://example.com/demo" style="height:40px;v-text-anchor:middle;width:220px;" arcsize="60%" stroke="f" fillcolor="#2490eb">
+                                                        <w:anchorlock/>
+                                                        <center style="color:#ffffff;font-family:sans-serif;font-size:14px;font-weight:700;">SCHEDULE YOUR DEMO</center>
+                                                    </v:roundrect>
+                                                    <![endif]-->
+                                                    <a href="https://example.com/demo" target="_blank" class="mobile-button" style="background: linear-gradient(135deg, #14467b, #2490eb); border-radius: 30px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 14px; font-weight: 700; padding: 10px 16px; text-align: center; text-decoration: none; width: auto; letter-spacing: 0.5px; box-sizing: border-box; -webkit-text-size-adjust: none; white-space: nowrap;">
+                                                        SCHEDULE YOUR DEMO
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!--[if gte mso 9]>
+                                            </v:textbox>
+                                        </v:rect>
+                                        <![endif]-->
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Feature Card Row Component -->
+                    <tr>
+                        <td align="left" bgcolor="#ffffff" class="mobile-padding" style="background-color: #ffffff; padding: 20px 25px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin: 20px 0;">
+                                <tr>
+                                    <!-- Feature Card 1 -->
+                                    <td class="feature-card-container" align="center" valign="top" width="50%" style="padding-right: 12px; padding-bottom: 20px; text-align: center;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="feature-card" width="100%" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(23, 70, 135, 0.05); box-shadow: 0 8px 20px rgba(23, 70, 135, 0.1); background-color: #ffffff; max-width: 260px; margin: 0 auto; display: block; height: 100%;">
+                                            <!-- Card Header -->
+                                            <tr>
+                                                <td align="center" bgcolor="#14467b" style="background: linear-gradient(135deg, #14467b, #2490eb); padding: 25px 0; border-radius: 12px 12px 0 0;">
+                                                    <!--[if gte mso 9]>
+                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:260px;height:120px;">
+                                                        <v:fill type="gradient" color="#14467b" color2="#2490eb" angle="135" />
+                                                        <v:textbox inset="0,0,0,0">
+                                                    <![endif]-->
+
+                                                    <div style="width: 70px; height: 70px; border-radius: 50%; background-color: #ffffff; line-height: 70px; margin: 0 auto; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);">
+                                                        <img src="https://img.icons8.com/ios/50/14467b/mac-os.png" alt="macOS Icon" width="35" height="35" style="vertical-align: middle; display: inline-block;" class="icon-light-mode">
+                                                        <img src="https://img.icons8.com/ios/50/ffffff/mac-os.png" alt="macOS Icon" width="35" height="35" style="vertical-align: middle; display: none;" class="icon-dark-mode">
+                                                    </div>
+
+                                                    <!--[if gte mso 9]>
+                                                        </v:textbox>
+                                                    </v:rect>
+                                                    <![endif]-->
+                                                </td>
+                                            </tr>
+
+                                            <!-- Card Body -->
+                                            <tr>
+                                                <td align="center" style="padding: 25px 20px; background-color: #ffffff;">
+                                                    <h3 style="color: #14467b; font-size: 18px; font-weight: 600; margin: 0 0 15px; line-height: 1.3;">
+                                                        Native macOS Compatibility
+                                                    </h3>
+                                                    <p style="color: #4a5568; font-size: 14px; line-height: 1.6; margin: 0;">
+                                                        Runs seamlessly on your Mac—no virtualization needed.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <!-- Feature Card 2 -->
+                                    <td class="feature-card-container" align="center" valign="top" width="50%" style="padding-left: 12px; padding-bottom: 20px; text-align: center;">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="feature-card" width="100%" style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(23, 70, 135, 0.05); box-shadow: 0 8px 20px rgba(23, 70, 135, 0.1); background-color: #ffffff; max-width: 260px; margin: 0 auto; display: block; height: 100%;">
+                                            <!-- Card Header -->
+                                            <tr>
+                                                <td align="center" bgcolor="#14467b" style="background: linear-gradient(135deg, #14467b, #2490eb); padding: 25px 0; border-radius: 12px 12px 0 0;">
+                                                    <!--[if gte mso 9]>
+                                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:260px;height:120px;">
+                                                        <v:fill type="gradient" color="#14467b" color2="#2490eb" angle="135" />
+                                                        <v:textbox inset="0,0,0,0">
+                                                    <![endif]-->
+
+                                                    <div style="width: 70px; height: 70px; border-radius: 50%; background-color: #ffffff; line-height: 70px; margin: 0 auto; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);">
+                                                        <img src="https://img.icons8.com/ios/50/14467b/speed.png" alt="Performance Icon" width="35" height="35" style="vertical-align: middle; display: inline-block;" class="icon-light-mode">
+                                                        <img src="https://img.icons8.com/ios/50/ffffff/speed.png" alt="Performance Icon" width="35" height="35" style="vertical-align: middle; display: none;" class="icon-dark-mode">
+                                                    </div>
+
+                                                    <!--[if gte mso 9]>
+                                                        </v:textbox>
+                                                    </v:rect>
+                                                    <![endif]-->
+                                                </td>
+                                            </tr>
+
+                                            <!-- Card Body -->
+                                            <tr>
+                                                <td align="center" style="padding: 25px 20px; background-color: #ffffff;">
+                                                    <h3 style="color: #14467b; font-size: 18px; font-weight: 600; margin: 0 0 15px; line-height: 1.3;">
+                                                        Optimized Performance
+                                                    </h3>
+                                                    <p style="color: #4a5568; font-size: 14px; line-height: 1.6; margin: 0;">
+                                                        Enjoy faster processing and better resource utilization.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Standard Footer Component -->
+                    <tr>
+                        <td align="center" bgcolor="#14467b" style="background: linear-gradient(135deg, #14467b 0%, #2490eb 80%, #14467b 100%) !important; padding: 40px 25px; border-radius: 0 0 8px 8px; position: relative; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                            <!--[if gte mso 9]>
+                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+                                <v:fill type="gradient" color="#14467b" color2="#2490eb" angle="135" />
+                                <v:textbox style="mso-fit-shape-to-text:true" inset="25px,40px,25px,40px">
+                            <![endif]-->
+
+                            <!-- Contact Info -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 400px; margin-bottom: 30px; padding-bottom: 25px; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
+                                <tr>
+                                    <td align="center" style="color: #ffffff; font-size: 15px; line-height: 1.5;">
+                                        <p style="margin: 0 0 8px 0; color: #ffffff; font-size: 18px; font-weight: 700; text-align: center;"><strong>Voice Automated</strong></p>
+                                        <p style="margin: 0 0 8px 0; color: #ffffff; font-size: 15px; text-align: center;">800-123-4567</p>
+                                        <p style="margin: 0; text-align: center;"><a href="mailto:support@example.com" style="color: #ffffff; text-decoration: none; border-bottom: 1px dotted rgba(255, 255, 255, 0.5); padding-bottom: 2px;">support@example.com</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Company Details -->
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 500px; margin-top: 25px; padding-top: 25px; border-top: 1px solid rgba(255, 255, 255, 0.2);">
+                                <tr>
+                                    <td align="center" style="padding-bottom: 10px;">
+                                        <a href="https://example.com/unsubscribe" style="color: #ffffff; font-weight: 500; text-decoration: underline; font-size: 12px; line-height: 1.5;">Manage your email preferences</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="color: rgba(255, 255, 255, 0.8); font-size: 12px; line-height: 1.5;">
+                                        Voice Automated | 123 Main Street | Anytown, CA 12345 | USA
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!--[if gte mso 9]>
+                                </v:textbox>
+                            </v:rect>
+                            <![endif]-->
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

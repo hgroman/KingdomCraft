@@ -1,0 +1,35 @@
+{
+  "workspace": {
+    "name": "Voice Automated Email Templates",
+    "description": "Modular email templates for Voice Automated marketing campaigns",
+    "version": "1.0.0"
+  },
+  "folders": [
+    {
+      "path": ".",
+      "name": "Email Templates"
+    }
+  ],
+  "openFiles": [
+    "QUICK-START.md"
+  ],
+  "layout": {
+    "mainEditor": {
+      "group1": {
+        "files": ["QUICK-START.md"],
+        "active": "QUICK-START.md"
+      }
+    },
+    "sidebar": {
+      "explorer": true,
+      "search": false
+    }
+  },
+  "tasks": {
+    "email-preview": {
+      "command": "open",
+      "args": ["${file}"],
+      "group": "test"
+    }
+  }
+}

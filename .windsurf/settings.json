@@ -1,0 +1,55 @@
+{
+  "editor": {
+    "theme": "dark",
+    "fontSize": 14,
+    "fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "tabSize": 2,
+    "insertSpaces": true,
+    "wordWrap": "on",
+    "lineNumbers": "on",
+    "formatOnSave": true
+  },
+  "workbench": {
+    "colorTheme": "Default Dark+",
+    "iconTheme": "material-icon-theme",
+    "sideBar": {
+      "location": "left"
+    }
+  },
+  "files": {
+    "associations": {
+      "*.html": "html",
+      "*.css": "css"
+    },
+    "exclude": {
+      "**/node_modules": true,
+      "**/.git": true,
+      "**/.DS_Store": true
+    }
+  },
+  "html": {
+    "format": {
+      "wrapLineLength": 120,
+      "wrapAttributes": "auto",
+      "endWithNewline": true
+    },
+    "suggest": {
+      "html5": true
+    }
+  },
+  "css": {
+    "validate": true,
+    "lint": {
+      "compatibleVendorPrefixes": "warning",
+      "vendorPrefix": "warning",
+      "duplicateProperties": "warning",
+      "emptyRules": "warning"
+    }
+  },
+  "explorer": {
+    "openEditors": {
+      "visible": true
+    },
+    "autoReveal": true
+  }
+}

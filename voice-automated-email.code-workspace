@@ -1,0 +1,67 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Voice Automated Email Templates"
+    }
+  ],
+  "settings": {
+    // Editor settings
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    
+    // File associations
+    "files.associations": {
+      "*.html": "html"
+    },
+    
+    // HTML settings
+    "html.format.wrapLineLength": 120,
+    "html.format.wrapAttributes": "auto",
+    "html.format.endWithNewline": true,
+    
+    // File explorer settings
+    "explorer.excludeGitIgnore": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.html": "${capture}.css, ${capture}.js",
+      "README.md": "LICENSE, QUICK-START.md"
+    },
+    
+    // Search settings
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true
+    },
+    
+    // Recommended extensions
+    "recommendations": [
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "streetsidesoftware.code-spell-checker",
+      "pranaygp.vscode-css-peek",
+      "ritwickdey.liveserver"
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "streetsidesoftware.code-spell-checker",
+      "pranaygp.vscode-css-peek",
+      "ritwickdey.liveserver"
+    ]
+  },
+  "launch": {
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Open Current HTML File",
+        "file": "${file}"
+      }
+    ]
+  }
+}

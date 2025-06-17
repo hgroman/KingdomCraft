@@ -1,0 +1,10 @@
+<mj-table padding-bottom="10px">
+  <tr>
+    <td style="vertical-align: top; padding-top: 5px; width: 24px;">
+      <img src="https://img.icons8.com/ios-filled/16/14467b/checkmark.png" width="16" height="16" alt="Checkmark" style="display: block;" />
+    </td>
+    <td style="padding-left: 10px; color: #4a5568; font-size: 16px; line-height: 1.6;">
+       <strong style="color: #2d3748; font-weight: 600;">Save time</strong> on documentation with automated note creation and task automation.
+    </td>
+  </tr>
+</mj-table>

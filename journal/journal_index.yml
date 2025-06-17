@@ -1,0 +1,17 @@
+- id: 20250617_110757_TASK_KC001
+  date: "2025-06-17"
+  task_id: "TASK_KC001"
+  summary: "System Rebrand TASK_KC001 initiated, WO created."
+  link: "./JE_20250617_110757_TASK_KC001_SystemRebrandInitiated.md"
+
+- id: 20250516_080117_TASK001
+  date: "2025-05-16"
+  task_id: "TASK001"
+  summary: "Completed MJML component creation and documentation (13 components)."
+  link: "./JE_20250516_080117_TASK001_MJML-Comp-Done.md"
+
+- id: 20250616_222919_TASK_PKA_WRAPUP_001
+  date: "2025-06-16"
+  task_id: "TASK_PKA_WRAPUP_001"
+  summary: "PKA Refinement Handoff"
+  link: "./JE_20250616_222919_TASK_PKA_WRAPUP_001_PKA_Refinement_Handoff.md"

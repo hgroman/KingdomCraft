@@ -1,0 +1,12 @@
+<mj-button href="https://example.com"
+           background-color="#2490eb"
+           color="#ffffff"
+           border-radius="30px"
+           font-weight="700"
+           font-size="14px"
+           inner-padding="10px 16px"
+           letter-spacing="0.5px"
+           align="center"
+           width="220px">
+  ACTION TEXT
+</mj-button>

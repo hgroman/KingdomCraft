@@ -1,0 +1,162 @@
+- id: TASK_MARINBIO_001
+  title: "MarinBio Client Onboarding & Initial Strategy Development"
+  status: active
+  due: "" # To be determined
+  description: "Onboard new client MarinBio. This includes: 1. Defining and creating the MarinBio Client Steward persona. 2. Comprehensive information gathering (brand, assets, history, goals, etc.). 3. Developing a 6-month white paper plan. 4. Crafting a press release for the white paper plan."
+  assigned_to: KingdomCraft Steward (AI) / USER
+  priority: high
+  related_files:
+    - persona_prompts/3.marinbio_client_steward_persona.md
+    - journal/JE_20250613_051152_KC_REBRAND_COMPLETE_MARINBIO_PIVOT_Strategic-Pivot-to-MarinBio.md
+    - Handoff/HO_20250613_051152_KC_PIVOT_MARINBIO_Pause-Internal-Dev.md
+  latest_journal_entry: "journal/JE_20250613_051152_KC_REBRAND_COMPLETE_MARINBIO_PIVOT_Strategic-Pivot-to-MarinBio.md"
+
+- id: TASK_KC001
+  title: "System Rebrand: KingdomCraft Setup & Configuration"
+  status: active
+  due: "2025-06-19"
+  description: "Comprehensive rebranding of the project from EmailForge to KingdomCraft. Includes updating all file names, internal references, documentation, persona prompts, and task management systems to reflect the new KingdomCraft name, KingdomCraft Steward persona, and The Bezalel Framework philosophy."
+  assigned_to: KingdomCraft Steward (AI) / USER
+  priority: critical
+  related_work_order_id: WO_TASK_KC001_20250617_SystemRebrand.md
+  related_files: []
+  latest_journal_entry: "journal/JE_20250617_110757_TASK_KC001_SystemRebrandInitiated.md"
+
+- id: TASK001
+  title: "Implement MJML Components and Documentation from WO_MJML_Component_Creation_Initial_Doc.md"
+  status: done
+  due: "2025-05-16"
+  description: "Complete all cleanup and creation of MJML components (1-13) as per mjml_component_analysis_report.md and associated handoff documents. This includes creating .mjml files and .md documentation files. All 13 components and their documentation are now created and in their correct locations. Legacy artifacts cleaned up."
+  assigned_to: KingdomCraft Steward (AI)
+  priority: high
+  related_work_order_id: WO_MJML_Component_Creation_Initial_Doc.md
+  related_files:
+    - work_orders/WO_MJML_Component_Creation_Initial_Doc.md
+    - Handoff/HO_20250516_080117_TASK001_MJML-Components-Finalized.md
+    - work_orders/completed/mjml_component_analysis_report.md
+    - journal/2025-05-16_150102_WO_MJML_Component_Creation_Completed.md # This path is old, but kept for historical link if needed
+  latest_journal_entry: journal/JE_20250516_080117_TASK001_MJML-Comp-Done.md
+
+- id: TASK002
+  title: "Execute Legacy Non-MJML Asset Audit and Archival"
+  status: done
+  description: "Performed a comprehensive audit of legacy non-MJML assets as detailed in WO002. Includes discovery, assessment, archival/deletion, and documentation. The Archive-Legacy directory was renamed to Archive-Legacy_ARCHIVED_20250611."
+  assigned_to: KingdomCraft Steward (AI) / USER
+  priority: medium
+  related_wo_id: WO002
+  related_files:
+    - work_orders/completed/WO_TASK002_20250611_Legacy-Asset-Audit.md
+    - docs/guides/Work_Order_Process.md
+    - docs/legacy_asset_audit_report.md
+  latest_journal_entry: journal/JE_20250611_155500_TASK002_Legacy-Audit-Done.md
+
+- id: TASK_META
+  title: "Conform existing files & docs to new TASK-centric naming rules"
+  status: done
+  due: "2025-05-17"
+  description: "Execute WO_TASK_META_CONSOLIDATION_20250517 to rename files, update documentation to new naming conventions, and update task/journal links."
+  assigned_to: KingdomCraft Steward (AI)
+  priority: critical
+  related_work_order_id: WO_TASK_META_CONSOLIDATION_20250517
+  related_files:
+    - "work_orders/Work Order ID: WO_TASK_META_CONSOLIDATION_20250517.md"
+  latest_journal_entry: journal/JE_20250516_230523_TASK_META_Meta-Rules-Applied.md
+
+- id: TASK003
+  title: Legacy file alignment
+  status: done
+  latest_journal_entry: journal/JE_20250516_132253_TASK003_Legacy-Doc.md
+
+- id: TASK004
+  title: Legacy file alignment
+  status: done
+  latest_journal_entry: journal/JE_20250515_164649_TASK004_Std-WO-Guide.md
+
+- id: TASK005
+  title: Legacy file alignment
+  status: done
+  latest_journal_entry: journal/JE_20250515_131849_TASK005_Review-Analysis-Report.md
+
+- id: TASK006
+  title: Legacy file alignment
+  status: done
+  latest_journal_entry: journal/JE_20250515_120630_TASK006_Mgmt-Setup.md
+
+- id: TASK007
+  title: Legacy WO file alignment
+  status: done
+
+- id: TASK_BLOG001
+  title: "Convert Blog Post to WordPress HTML (DAX Copilot)"
+  status: done
+  due: "2025-06-12"
+  description: "Convert the provided Markdown blog post about DAX Copilot specialty-specific AI models to HTML suitable for WordPress, applying Voice Automated color schemes."
+  assigned_to: KingdomCraft Steward (AI) / USER
+  priority: medium
+  related_work_order_id: WO_TASK_BLOG001_20250611_Blog-Post-DAX-Copilot-HTML.md
+  related_files:
+    - work_orders/active/WO_TASK_BLOG001_20250611_Blog-Post-DAX-Copilot-HTML.md
+    - work_orders/active/dax_copilot_blog_post.html
+    - journal/JE_20250612_080200_TASK_BLOG001_WordPress_Blog_Post_HTML_Conversion_Complete.md
+  latest_journal_entry: "JE_20250612_080200_TASK_BLOG001_WordPress_Blog_Post_HTML_Conversion_Complete.md"
+
+- id: TASK_KC_BEZALEL001
+  title: "KingdomCraft - Project Bezalel: Framework for Effort & Value Quantification"
+  status: done
+  due: "2025-06-12"
+  description: "Establish a formal framework for tracking and quantifying effort from client, internal, and process improvement perspectives, grounded in The Bezalel Framework, within the KingdomCraft system."
+  assigned_to: KingdomCraft Steward (AI) / USER
+  priority: high
+  related_work_order_id: "WO_TASK_KC_BEZALEL001_20250612_Project-Bezalel-Framework.md"
+  related_files:
+    - "work_orders/archive/WO_TASK_KC_BEZALEL001_20250612_Project-Bezalel-Framework.md"
+    - "docs/guides/Effort_And_Value_Philosophy.md"
+    - "meta_analysis/MA_TASK_KC_BEZALEL001_20250612_Project-Bezalel-Framework-Analysis.md"
+    - "journal/JE_20250612_082500_TASK_KC_BEZALEL001_Project_Bezalel_Framework_Established.md"
+  latest_journal_entry: "journal/JE_20250612_082500_TASK_KC_BEZALEL001_Project_Bezalel_Framework_Established.md"
+
+- id: TASK_MARINBIO_002
+  title: "Phase 1 Review, Process Improvement, Client Comm Strategy & Folder Org"
+  status: closed
+  due: "2025-06-14"
+  description: "Execute WO-20250614-TASK_MARINBIO_002. Review MarinBio Phase 1 effort for internal process improvements, develop client communication strategy, define and implement standard client folder structure, and consolidate MarinBio project files."
+  assigned_to: KingdomCraft Steward (AI) / USER
+  priority: high
+  related_work_order_id: WO-20250614-TASK_MARINBIO_002-Phase1_Review_Process_Refinement_Client_Comm_Folder_Org.md
+  related_files:
+    - clients/MarinBio/archive/WO-20250614-TASK_MARINBIO_002-Phase1_Review_Process_Refinement_Client_Comm_Folder_Org.md
+    - clients/MarinBio/admin/MarinBio_TimeLog.md
+    - docs/guides/Standard_Client_Folder_Structure.md
+    - personas/system/kingdomcraft_estate_keeper_persona.md
+    - clients/MarinBio/04_communication/Phase1_Progress_Summary_Draft.md
+  latest_journal_entry: "journal/JE_20250614_091500_TASK_MARINBIO_002_Phase1_Review_And_Process_Refinement_Complete.md"
+
+- id: TASK_PERSONA_DEV_001
+  title: "Define New System Personas: Client Communication & Strategic Billing"
+  status: closed
+  due: "2025-06-14"
+  description: "Execute WO-20250614-TASK_PERSONA_DEV_001. Define and document two new system-level personas: Client Communication Persona and Strategic Billing Persona, including their core identities, directives, knowledge domains, and user guides. Initial definition phase complete."
+  assigned_to: Cascade (AI) / USER
+  priority: high
+  related_work_order_id: WO-20250614-TASK_PERSONA_DEV_001-New_System_Personas_Comm_Billing.md
+  related_files:
+    - work_orders/archive/WO-20250614-TASK_PERSONA_DEV_001-New_System_Personas_Comm_Billing.md
+    - personas/system/client_communication_persona.md
+    - docs/guides/Client_Communication_Persona_Guide.md
+    - personas/system/strategic_billing_persona.md
+    - docs/guides/Strategic_Billing_Persona_Guide.md
+    - docs/guides/System_Persona_Testing_Strategy.md
+  latest_journal_entry: "journal/JE_20250614_101500_TASK_PERSONA_DEV_001_New_System_Personas_Defined.md"
+
+- id: TASK_PKA_WRAPUP_001
+  title: "Persona Knowledge Architecture Refinement & Handoff"
+  status: done
+  due: "2025-06-16"
+  description: "Completed refinement of persona knowledge architecture elements, including client onboarding protocol, specialist persona creation, MarinBio persona file management, and manifest updates. Created Handoff and Journal Entry to document progress and outline next steps for enhancing the Multi-LLM Interaction Model."
+  assigned_to: Cascade (AI) / USER
+  priority: high
+  related_files:
+    - Handoff/HO_20250616_222919_TASK_PKA_WRAPUP_001_PKA_Refinement_NextSteps_BootUpModel.md
+    - journal/JE_20250616_222919_TASK_PKA_WRAPUP_001_PKA_Refinement_Handoff.md
+    - journal/journal_index.yml
+  latest_journal_entry: "journal/JE_20250616_222919_TASK_PKA_WRAPUP_001_PKA_Refinement_Handoff.md"

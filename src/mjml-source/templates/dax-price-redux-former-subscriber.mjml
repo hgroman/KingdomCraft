@@ -1,0 +1,229 @@
+<mjml>
+  <mj-head>
+    <mj-title>DAX Copilot - Welcome Back Price</mj-title>
+    <mj-preview>{% text "preview_text" label="Preview Text", value="Watch DAX Copilot transform your patient interactions and reduce documentation time. Watch the video to see it in action", no_wrapper=True %}</mj-preview>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900" />
+    <mj-style>
+      .body-style {
+        background-color: #f5f5f5;
+      }
+      .section-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      a {
+        color: inherit;
+        text-decoration: none; /* Default, can be overridden */
+      }
+      p {
+        line-height: inherit;
+      }
+      .benefit-column { height: 100% !important; }
+      .benefit-column > div > table { height: 100% !important; }
+      .benefit-column > div > table > tbody > tr > td { height: 100% !important; }
+    </mj-style>
+    <mj-attributes>
+      <mj-all font-family="Lato, Tahoma, Verdana, Segoe, sans-serif" />
+      <mj-text color="#4a4a4a" font-size="16px" line-height="1.5" />
+      <mj-section background-color="#ffffff" padding="0px" />
+      <mj-wrapper padding="0px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body css-class="body-style">
+    <!-- Row 1: Logo -->
+    <mj-section background-color="#f5f5f5" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-image width="150px" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/639141_621215/va-logo%400.5x.png" alt="Voice Automated Logo" padding="10px 0 0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 2: DAX Copilot Heading Bar -->
+    <mj-section background-color="#24488b" padding="5px 0">
+      <mj-column>
+        <mj-text font-size="15px" color="#ffffff" font-weight="400" letter-spacing="3px" align="center" padding="10px">
+          <span class="tinyMce-placeholder" style="word-break: break-word;">DAX COPILOT</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 3: Hero Section -->
+    <mj-section background-url="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/wlqp3q0e/mu7/x66/0dk/2792e6c0-7e11-4442-adcc-34687e742f3a.png" background-size="cover" background-repeat="no-repeat" padding="5px 0">
+      <mj-column width="50%" vertical-align="top" padding="5px 0">
+        <mj-spacer height="60px" />
+        <mj-text color="#24488b" font-size="36px" font-weight="700" line-height="1.2" padding="10px 15px 10px 15px">
+          A Welcome Back Price Just for You
+        </mj-text>
+        <mj-text color="#4a4a4a" font-size="19px" font-weight="400" line-height="1.2" padding="10px 15px">
+          DAX Copilot is now <strong>$300</strong> — and we're making it easy to return.
+        </mj-text>
+        <mj-text color="#24488b" font-size="16px" font-weight="400" line-height="1.2" padding="10px 15px">
+          <a href="https://voiceautomated.com/dax-copilot-dragon-ambient-experience/" target="_blank" style="text-decoration: underline; color: #24488b;">Discover More</a>
+        </mj-text>
+        <mj-spacer height="60px" />
+      </mj-column>
+      <mj-column width="50%" vertical-align="top" padding="5px 0">
+        <mj-spacer height="60px" /> <!-- Mimicking the spacer from original -->
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 4: Introductory Paragraph -->
+    <mj-section background-color="#ffffff" padding="5px 0">
+      <mj-column>
+        <mj-text color="#4a4a4a" font-size="18px" font-weight="300" line-height="1.5" align="center" padding="10px">
+          You gave DAX Copilot a try. We understand — $600/month may not have been the right fit at the time. But that's changed. DAX Copilot is now just $300/month per user, and we're offering flexible onboarding to help make your return smooth and worthwhile. If the timing is right, let's reconnect and show you what's new — and what's better.
+        </mj-text>
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 5: Key Benefits Heading Section -->
+    <mj-section background-url="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/wlqp3q0e/jbt/2b2/xnu/v26_216.png" background-size="cover" background-repeat="no-repeat" padding="0px">
+      <mj-column width="50%" vertical-align="top" padding="5px 0 40px 0">
+        <!-- Empty column as per original -->
+      </mj-column>
+      <mj-column width="50%" vertical-align="top" padding="5px 0">
+        <mj-text color="#24488b" font-size="25px" font-weight="400" line-height="1.5" align="left" padding="15px 15px 10px 60px">
+          <br><br>Unleash the Power of DAX Copilot: <br><br>Key Benefits<br>
+        </mj-text>
+        <mj-spacer height="130px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Benefit Boxes Section (Raw HTML Table) -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-raw>
+          <!--
+            A single HTML table with 2 rows × 2 columns.
+            Each <td> gets its own bgcolor and padding,
+            and the table will auto‑equalize row‑heights.
+          -->
+          <table
+            role="presentation"
+            width="100%"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            style="table-layout:auto; border-collapse:collapse;"
+          >
+            <tr>
+              <td
+                width="50%"
+                bgcolor="#91a3c6"
+                valign="top"
+                style="padding:20px 30px; color:#fff; font-family:Lato, sans-serif;"
+              >
+                <h2 style="margin:0;font-size:28px;line-height:1;">1</h2>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:16px;line-height:1.2;">Automated Clinical Documentation:</p>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:14px;line-height:1.4;">
+                  DAX Copilot listens to your patient encounters and generates comprehensive, structured clinical&nbsp;summaries…
+                </p>
+              </td>
+              <td
+                width="50%"
+                bgcolor="#7a8fba"
+                valign="top"
+                style="padding:20px 30px; color:#fff; font-family:Lato, sans-serif;"
+              >
+                <h2 style="margin:0;font-size:28px;line-height:1;">2</h2>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:16px;line-height:1.2;">Enhanced Clinician Satisfaction:</p>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:14px;line-height:1.4;">
+                  Reduce administrative burdens, experience greater work‑life balance, and rediscover the joy…
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                bgcolor="#6278a7"
+                valign="top"
+                style="padding:20px 30px; color:#fff; font-family:Lato, sans-serif;"
+              >
+                <h2 style="margin:0;font-size:28px;line-height:1;">3</h2>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:16px;line-height:1.2;">Elevated Patient Experience:</p>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:14px;line-height:1.4;">
+                  Focus on your patients, engage in more meaningful conversations, and deliver personalized care.
+                </p>
+              </td>
+              <td
+                bgcolor="#445c8b"
+                valign="top"
+                style="padding:20px 30px; color:#fff; font-family:Lato, sans-serif;"
+              >
+                <h2 style="margin:0;font-size:28px;line-height:1;">4</h2>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:16px;line-height:1.2;">Seamless EHR Integration:</p>
+                <p style="margin:.5em&nbsp;0&nbsp;0;font-size:14px;line-height:1.4;">
+                  DAX Copilot integrates with Dragon Medical&nbsp;One, compatible with 200+ EHR systems…
+                </p>
+              </td>
+            </tr>
+          </table>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 8: CTA Section -->
+    <mj-section background-color="#f1f2f4" padding="5px 0">
+      <mj-column>
+        <mj-text color="#4a4a4a" font-size="21px" font-weight="300" line-height="1.2" align="center" padding="10px">
+          Embrace the future of healthcare with DAX Copilot. Schedule a demo today and experience the transformative power of AI-driven clinical documentation.
+        </mj-text>
+        <mj-button href="https://app.acuityscheduling.com/schedule.php?owner=14103912&appointmentType=68146447" background-color="#24488b" color="#ffffff" font-size="16px" font-weight="400" letter-spacing="8px" padding="10px" inner-padding="10px 60px">
+          Schedule a Call
+        </mj-button>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 9: 30+ Years of Excellence -->
+    <mj-section background-color="#ffffff" padding="5px 0">
+      <mj-column width="58.33%" vertical-align="top">
+        <mj-text color="#24488b" font-size="25px" font-weight="400" line-height="1.2" align="left" padding="10px 15px 10px 15px">
+          30+ Years of Excellence in Healthcare Solutions<br />
+        </mj-text>
+        <mj-text color="#4a4a4a" font-size="16px" font-weight="300" line-height="1.5" align="left" padding="10px 15px 10px 15px">
+          With three decades of industry experience, Voice Automated stands at the forefront of healthcare technology solutions. We're not just a provider; we're your partner in enhancing patient care through innovative solutions. Let our experts ensure your smooth transition to advanced EHR functionality.
+        </mj-text>
+        <mj-text color="#24488b" font-size="16px" font-weight="400" line-height="1.2" align="left" padding="0px 15px 10px 15px">
+          <a href="https://voiceautomated.com/dax-trial-sign-up/" target="_blank" style="text-decoration: underline; color: #24488b;">Elevate Your Practice Today</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="41.67%" vertical-align="top">
+        <mj-spacer height="60px" />
+        <mj-image src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/wlqp3q0e/9km/4pw/asr/v26_239.png" alt="Healthcare solutions illustration" width="250px" align="right" padding="0px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 10: Footer Logo Area -->
+    <mj-section background-color="#ffffff" padding="5px 0">
+      <mj-column>
+        <mj-divider border-color="#dddddd" padding="10px 0" />
+        <mj-image src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/639141_621215/va-logo%400.5x.png" alt="Voice Automated Logo" width="180px" padding="5px" align="center" />
+        <mj-divider border-color="#dddddd" padding="10px 0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 11: Copyright and Social Icons -->
+    <mj-section background-color="#ffffff" padding="5px 0">
+      <mj-column>
+        <mj-text color="#101112" font-size="16px" font-weight="300" line-height="1.2" align="center" padding="10px">
+          © 2025 Voice Automated. All rights reserved.<br />www.voiceautomated.com<br />800-597-6600
+        </mj-text>
+        <mj-social font-size="15px" icon-size="32px" mode="horizontal" padding="5px" align="center">
+          <mj-social-element name="facebook" href="https://www.facebook.com/voiceautomated" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/facebook@2x.png" alt="Facebook" />
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/company/741789/admin/dashboard/" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/linkedin@2x.png" alt="LinkedIn" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/user/voiceautomated" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/youtube@2x.png" alt="YouTube" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- New Footer -->
+    <mj-section background-color="#ffffff" padding="5px 0 20px 0">
+      <mj-column>
+        <mj-divider border-color="#dddddd" padding="10px 0" />
+        <mj-text align="center" padding="10px 25px" font-size="12px" color="#555555" line-height="1.5">
+          Voice Automated | 30211 Avenida De Las Banderas Suite 200 | Rancho Santa Margarita CA 92688 USA
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

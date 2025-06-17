@@ -1,0 +1,164 @@
+# KingdomCraft Project Plan
+
+## Notes
+- EmailForge is an AI-assisted MJML email template system converting structured Markdown into production-ready MJML templates using a three-persona relay (Content Strategist, MJML Developer, Component Librarian).
+- The main README.md is the authoritative entry point; onboarding checklist is strictly followed.
+- Work Orders (WO), Journal Entries (JE), and Handoff (HO) documents have strict naming and documentation conventions.
+- Legacy/archival content now resides in Archive-Legacy/ and is targeted by TASK002 for audit/archival (docs/legacy/ reference is outdated).
+- Onboarding steps completed: README.md, Work_Order_Process.md, journal_index.yml, tasks.yml, latest Handoff reviewed.
+- IDE tools are confirmed as standard (per user input); use standard system prompt tools unless otherwise directed.
+- Legacy asset audit report (legacy_asset_audit_report.md) is complete and all actions for TASK002 (audit, archival, documentation, closure) are finished.
+- Four documentation clarity improvements identified: (1) update all legacy asset references to Archive-Legacy_ARCHIVED_YYYYMMDD/, (2) add docs/Tools.md (done), (3) provide a concrete AI persona relay workflow example (done), (4) clarify journal_index.yml update process (done).
+- All code, scripts, and documentation must reference the new legacy archive directory name (`Archive-Legacy_ARCHIVED_20250611/`); searching for and updating any remaining references to the old name is required to prevent friction/confusion. (Complete)
+- Project may contain unexplored areas; a review for blind spots is recommended. (Complete)
+- The MJML component library (`src/mjml-source/components/`) has now been explored and summarized; MJML templates have been reviewed and are monolithic; core persona prompts have been reviewed and summarized; next, conduct a final review for blind spots and outdated legacy references. (Complete)
+- User intends to introduce and customize a new persona prompt (`knowledge_librarian_persona_v2.md`) for this environment.
+- User clarified that the persona should act as a project governor/lead strategist: boots up, surveys project state (docs, tools, recent work, open items), strategizes and plans with the user, and routes to sub-personas for deeper tasks as needed.
+- Persona should, on boot, summarize recent work, state its understanding of top tools/resources, and ask if the user wants to continue open items or start something new. Knowledge domains and expertise will evolve as new clients, best practices, and tools (vector DB, MCP tools) are added.
+- Persona must always review the Work Order Process documentation (`docs/guides/Work_Order_Process.md`) as part of its initialization.
+- Persona should begin with a strong, evolving "I am" identity statement reflecting project awareness and learning, to be refined as strategy turns to action and as more is learned from user interactions.
+- The custom Project Governor persona prompt has been renamed and updated to `1.kingdomcraft_steward_persona.md`; all references now use "KingdomCraft Steward" and the Bezalel Framework remains as the guiding philosophy. The persona prompt and all related documentation are now fully updated to "KingdomCraft" branding and conventions.
+- The MJML Component Architect persona prompt has been rebranded to "KingdomCraft" and made aware of the Bezalel Framework; the Feng Shui Strategist prompt did not require project-specific changes.
+- The Analytical Assistant persona prompt has been rebranded to "KingdomCraft".
+- All persona prompts have now been reviewed; rebranding is finalized and no further changes are required for legacy references in persona prompts.
+- All high-priority "EmailForge" references in documentation, scripts, and artifacts have now been updated to "KingdomCraft"; the rebrand is complete and the site is ready for new project/persona work.
+- NEXT: The project folder has been renamed to "KingdomCraft" and the workspace is open; rebrand/expansion implementation is underway. Systematic updates to all documentation, code, and persona references to "KingdomCraft" and "KingdomCraft Steward" are in progress.
+- All major artifacts (Work Order, Meta-Analysis, Journal Entry) for KingdomCraft - Project Bezalel have been renamed and are being updated internally to reflect the new naming and philosophy. Remaining references to "EmailForge" are being systematically replaced with "KingdomCraft."
+- KingdomCraft rebrand is now fully complete. All primary references, documentation, and artifacts are updated.
+- Strategic pivot: Pausing internal multi-client architecture work to onboard new client MarinBio. Will create a dedicated "Client Steward" persona for MarinBio, responsible for comprehensive knowledge management and strategic partnership.
+- MarinBio onboarding will involve information gathering, persona definition, and developing a 6-month white paper plan and press release. Handoff and Journal Entry documenting this pivot have been created; these leave a note for future resumption of the master plan.
+- USER CLARIFICATION: The MarinBio white paper series will be completed at a pace of one white paper per month (not one every six months). All supporting documents and plans must reflect this accelerated cadence. Adjust all timelines, deliverables, and communications accordingly.
+- The MarinBio Client Steward persona prompt has been created and saved; ready for onboarding and information assimilation.
+- MarinBio onboarding and strategy task has been added to tasks.yml; next step is to create the Work Order for MarinBio information gathering, white paper plan, and press release.
+- The Work Order for MarinBio onboarding and strategy has been created and saved; next step is to begin information collection for MarinBio (brand, assets, history, messaging, etc.).
+- A new `clients/MarinBio/` directory structure will be created to organize all collected MarinBio information, including raw Claude outputs, categorized knowledge, and deliverables. This structure will support future vectorization and multi-client scalability.
+- Once all Claude outputs are collected, the user will initiate a new chat to boot up the MarinBio Client Steward persona, contextualize its role within KingdomCraft, and have it begin parsing and organizing the gathered reports into the knowledge base.
+- MarinBio foundational datasets (`1 -Foundational Dataset...md`, `2 -Foundational Dataset...md`) and the 2025 EU audit press release have been gathered; synthesis and gap analysis is underway.
+- MarinBio source directory and file structure has been revised: all foundational process steps now follow the sequence: (a) source material collection, (b) input/source analysis/meta files (`1a-Input-Source-Material-Analysis-for-MarinBio.md`, `2a-Input-Source-Material-Analysis-&-Methodol.md`), (c) dataset synthesis/output files (`1b-Output-Foundational Dataset...md`, `2b-Output-Foundational Dataset...md`), followed by narrative/strategy docs. All references and synthesis must follow this corrected chronology.
+- The user has supplemented each foundational dataset with a corresponding methodological transparency/meta-statement file (`1-Source-Material-Analysis-for-MarinBio.md`, `2-Source-Material-Analysis-&-Methodol.md`), clarifying the provenance, categories, and analytical rigor of the datasets. These were not replacements, but explicit documentation to increase transparency and client appreciation of the AI-assisted process.
+- New MarinBio positioning/advantage summary ("The MarinBio Advantage: Six Reasons We Are Unmatched") received; to be incorporated into knowledge base synthesis.
+- "MarinBio Advantage: Six Reasons" summary has been filed and integrated into the knowledge base.
+- New MarinBio technical/educational article ("Selecting Bioanalytical Assays for FDA Clinical Trials & Commercialization") has been filed and integrated into the knowledge base.
+- Synthesis now includes all six MarinBio documents.
+- MarinBio source directory now contains: input/source analysis, output/dataset, and all narrative/strategy docs. All future synthesis and documentation must reference these files and their correct sequence.
+- "MarinBio Origin Story" text received as Markdown file; ready for synthesis.
+- "MarinBio — Science That Thinks With You.md" has been received and synthesis now includes all seven MarinBio documents.
+- New MarinBio technical/educational article (full version of "Selecting Bioanalytical Assays for FDA Clinical Trials & Commercialization") has been provided and is now fully integrated into the knowledge base synthesis.
+- MarinBio's recent blog posts (from marinbio.com) have been thoroughly reviewed and synthesized for additional insights, messaging alignment, and to ensure the strategy is rooted in MarinBio's actual voice and market positioning.
+- Blog synthesis for MarinBio will now be explicitly documented in a new file (`8-Blog_Synthesis_and_Links.md`) to support the white paper series; relevant content and links will be extracted from https://www.marinbio.com/blog-index/.
+- Relevant MarinBio blog post URLs and titles have been extracted; content reading and analysis is underway for synthesis.
+- Synthesis and drafting of `8-Blog_Synthesis_and_Links.md` is complete; the file has been created and populated with synthesized insights and links to selected MarinBio blog posts.
+- User requires a systematic way to track completed effort for MarinBio for billing purposes. The current, ongoing engagement is defined as "Phase 1". Any prior work is "Phase 2".
+- `clients/MarinBio/admin/MarinBio_TimeLog.md` created for effort tracking.
+- Time logging for MarinBio must be detailed and value-oriented to support client billing and demonstrate AI-driven progress.
+- A new Work Order (`WO-20250614-TASK_MARINBIO_002-Phase1_Review_Process_Refinement_Client_Comm_Folder_Org.md`) has been created to review Phase 1 effort, refine internal processes, strategize client communication, and standardize/clean up client project folder structures.
+- The concept of a "Keeper of the Estate" persona has been identified. This system-level persona will be responsible for information architecture, organizational hygiene, and ensuring the project's knowledge base is structured and scalable. Its creation is now part of TASK_MARINBIO_002.
+- All objectives for TASK_MARINBIO_002 are complete: the MarinBio client folder is reorganized, the standard structure is documented (`docs/guides/Standard_Client_Folder_Structure.md`), the "Keeper of the Estate" persona is created (`personas/system/kingdomcraft_estate_keeper_persona.md`), and a client communication summary has been drafted (`clients/MarinBio/04_communication/Phase1_Progress_Summary_Draft.md`).
+- USER PIVOT: Paused persona testing to prioritize and complete MarinBio Phase 1 billing and communication documentation. This is now complete, with `Phase1_Completion_Report.md` and `Phase1_Billing_Summary.md` created.
+- USER STRATEGIC INITIATIVE: Define and implement a "Billing Finalization Protocol" to systematize the process from task completion to billing-ready. This protocol aims to ensure all documentation (client comms, internal billing reference) is created and the task is marked as billable in Dart promptly upon a task being deemed "COMPLETE complete."
+  - The term "COMPLETE complete" signifies a full consummation of the task, akin to "Tetelestai" ("It is finished"), including all administrative wrap-up.
+  - AI partner will proactively assist and remind the user to follow this protocol to alleviate anxiety around retrospective documentation.
+  - AI reminders will be immediate (blocking new work until protocol completion) and adopt a supportive, therapeutic tone (e.g., "Hank, your future self will thank you...").
+  - The `Billing_Finalization_Protocol.md` has been created in `docs/guides/`.
+  - User has upgraded Dart to a paid plan, enabling custom statuses. A new custom status "Tetelestai" has been created in Dart under the "Finished" stage to mark tasks ready for invoicing.
+  - [x] Test the Billing Finalization Protocol in a real or simulated scenario.
+- [x] Journal effort for Billing Finalization Protocol creation and implementation.
+- [x] Review Claude Truthfulness Protocol document from Dart (`https://app.itsdart.com/f/d5CJ9oMgR5DL/7p4TFINpibsu-Claude-Truthfulness-Protocol`)
+- The "Claude Truthfulness Protocol" (from Dart doc `7p4TFINpibsu`) is now a core operational guideline for AI (Cascade) when assessing, documenting, or scoping work. It emphasizes factual accuracy, realistic time estimates, and clear, honest language to protect against under/overcharging.
+- CLARIFIED WORKFLOW: Tasks originate in Dart (customer-facing, often from meetings). Work is performed internally in the IDE (Windsurf). Upon completion, and before or as part of a task being marked "Tetelestai" in Dart, an internal journal entry is created. This internal journal, guided by the "Claude Truthfulness Protocol," captures the unfiltered assessment of value, effort, and reasoning (including justifications for discounts or premium pricing). This internal journal then informs the actual customer-facing invoice. Dart's "Tetelestai" status signifies final customer-facing completion.
+- USER REPORTED MISSING DOCUMENT: User has identified `README_WORKFLOW.md` as a key workflow document. This document has now been located and reviewed.
+- `README_WORKFLOW.md` establishes DART as the central anchor for all tasks and journaling. All work MUST begin with a DART task. Journal entries are DART Documents linked to tasks, replacing local journal files (no `journal_index.yml`). It also introduces the "Knowledge Weaver" AI persona for documenting task journeys.
+- USER CORRECTION: The `KingdomCraft Steward` persona will *direct* sub-personas but will NOT be responsible for creating the internal billing assessment. A new, dedicated Billing Persona will be created for this, adhering to the "Claude Truthfulness Protocol."
+- An existing `personas/system/strategic_billing_persona.md` file has been found. This has been renamed to `personas/joseph_strategic_assessor_persona.md`, moved to the main `personas/` directory, and refined with new content integrating the Claude Truthfulness Protocol, Tetelestai process, DART awareness, and key document references.
+- Persona directories have been consolidated: all persona files now reside in `/personas/`. A `personas_nursery/` directory has been created for inactive/experimental personas. The `personas/system/` and `persona_prompts/` directories have been removed after consolidation.
+- WORKFLOW ESTABLISHED: Hybrid model adopted. DART for active task management & interim notes. Local files (`journal/`, `work_orders/`, `Handoff/`) for definitive archival. `tasks.yml` and DART Document JEs are deprecated for archival; local JEs are primary.
+- Created `docs/guides/KINGDOMCRAFT_SYSTEM_PHILOSOPHY.md` as a comprehensive guide to the project's philosophy and mechanics, serving as a "Note to Future Selves".
+- USER DIRECTIVE: Persona names must be explicit and unambiguous, describing their function without requiring interpretation. "Keeper of the Estate" and "Information Architect" were rejected as too vague. This has led to splitting responsibilities between two new personas: one for file structure and one for documentation content.
+- The `kingdomcraft_estate_keeper_persona.md` has been renamed to `file_structure_architect_persona.md` and its mandate focused exclusively on file and folder structure architecture.
+- A new `system_documentation_steward_persona.md` has been created to manage the content, consistency, and accuracy of all system documentation.
+- The `joseph_strategic_assessor_persona.md` will be renamed to `billing_and_value_steward_persona.md` to better reflect its purpose.
+- STRATEGIC VISION: A two-phase approach for persona knowledge management has been defined.
+  - **Phase 1 (Current):** Formalize a GitHub-based "flat file" system as the single source of truth, enabling tool-agnostic (Claude, ChatGPT, etc.) persona operation via knowledge manifests.
+  - **Phase 2 (Future):** Evolve to a vector database system, synced from the GitHub repo, to enable advanced semantic querying and knowledge synthesis.
+- Based on research, **Supabase with `pgvector`** has been selected as the vector database technology for Phase 2. It offers a unified platform for relational and vector data, aligning with the project's philosophy of architectural simplicity.
+- USER CORRECTION: Phase 1 (GitHub-based flat file system) is not yet fully "baked". Pausing Phase 2 planning to solidify Phase 1, including comprehensive manifest creation for all active personas and refining the multi-LLM boot-up process.
+- STRATEGIC ENHANCEMENT FOR PHASE 1: Personas must become client-aware. This involves:
+  - Creating "Client Profiles" in `clients/[ClientName]/profile/` (e.g., for MarinBio, Voice Automated, Last Crumb, Scraper Sky) containing client-specific data (overview, brand guidelines, active projects, etc.).
+  - Enhancing the persona boot-up sequence: Personas will be informed of the active client and load relevant information from the corresponding Client Profile.
+  - Knowledge manifests will include placeholders/instructions for loading client-specific documents.
+- NEW SPECIALIST PERSONAS IDENTIFIED: `mjml_email_crafter_persona.md`, `wordpress_mjml_deployer_persona.md`, `content_to_email_converter_persona.md`. These will be created as part of the expanded Phase 1.
+- USER CORRECTION (2025-06-16): Prematurely created client profile directories/files. Pausing implementation to return to pure strategy discussion for client-aware personas and specialist roles. All subsequent Phase 1 tasks will focus on strategic definition before further file modifications.
+- NEW CLIENT ONBOARDING STRATEGY (2025-06-16): A two-stage process for client knowledge management:
+  - **Stage 1 (Onboarding & Data Population):** A universal `docs/guides/Client_Onboarding_Protocol.md` will guide a new `client_onboarding_specialist_persona.md` in gathering all necessary client information and populating the standardized documents within the client's `clients/[ClientName]/profile/` directory.
+  - **Stage 2 (Ongoing Expertise & Management):** Once a client's profile is populated, a dedicated `[ClientName]_client_steward_persona.md` will consume this knowledge base to become the subject matter expert for that client.
+- HIERARCHICAL CLIENT PERSONAS & PAIRED DOCUMENTS (2025-06-16): Client Stewards can orchestrate specialized SME sub-personas (e.g., Biotech SME, Competitive Analysis SME). This reflects a meta-level similarity to the KingdomCraft Steward. Personas can leverage "paired documents" (a prompt file + a framework/methodology guide) for specific tasks (e.g., transcript processing).
+- User-provided transcript processing documents (`Meeting Transcipt Document x.md` and `Task-Extraction-Framework-1.1.md`) have been integrated into `docs/methodologies/` as `Transcript_Analysis_Prompt_Template.md` and `Task_Extraction_Framework_v1.1.md` respectively. The original `docs/Document X/` directory has been cleaned up.
+- USER OBSERVATION (2025-06-16): Initial concern about `personas/manifests/` containing duplicates resolved. Directory structure is correct (concise manifests). Focus shifted to ensuring all path references within manifests (e.g., `1.kingdomcraft_steward.md` for MarinBio persona) are accurate.
+- CRITICAL USER DIRECTIVE (2025-06-16): AI must NOT create any directories without explicit prior user approval. All file/folder operations require confirmation.
+- CORRECTIVE ACTION COMPLETE (2025-06-16): MarinBio persona file (`3.marinbio_client_steward_persona.md`) successfully moved to `clients/MarinBio/3.marinbio_client_steward_persona.md`. Incorrectly created directories (`personas/clients/MarinBio/` and `personas/clients/`) and the original persona file have been deleted.
+- USER FRUSTRATION (2025-06-16): User expressed significant frustration with AI repeating previously discussed topics. Session will conclude with the creation of a Handoff Document to ensure clarity and continuity for the next interaction.
+- Handoff document `HO_20250616_222919_TASK_PKA_WRAPUP_001_PKA_Refinement_NextSteps_BootUpModel.md` created to summarize session work and outline next steps.
+- Journal Entry `JE_20250616_222919_TASK_PKA_WRAPUP_001_PKA_Refinement_Handoff.md` created.
+- `journal/journal_index.yml` created and populated with the new journal entry.
+- `tasks.yml` updated to include `TASK_PKA_WRAPUP_001` (status: done).
+- USER CONCERN (2025-06-16): User expressed concern about AI context pruning and lack of visibility into the "planning document." Clarified that the plan is internal and dynamic, with Handoff documents serving as user-accessible snapshots.
+
+## Current Goal
+Address user concerns and conclude session.
+
+## Task List
+- [x] Create `docs/guides/KINGDOMCRAFT_SYSTEM_PHILOSOPHY.md` (Definitive "Note to Future Selves").
+- [x] Update `README.md` to point to `docs/guides/KINGDOMCRAFT_SYSTEM_PHILOSOPHY.md` as the primary philosophical guide.
+- [x] Update `README_WORKFLOW.md` to add a preamble directing readers to `docs/guides/KINGDOMCRAFT_SYSTEM_PHILOSOPHY.md` for strategic context.
+- [x] Rename `personas/kingdomcraft_estate_keeper_persona.md` to `file_structure_architect_persona.md`.
+- [x] Update the content of `file_structure_architect_persona.md` to focus strictly on file and folder structure architecture.
+- [x] Create new persona `system_documentation_steward_persona.md` to manage documentation content and consistency.
+- [x] Rename `personas/joseph_strategic_assessor_persona.md` to `personas/billing_and_value_steward_persona.md`.
+- [ ] Implement Phase 1 Persona Knowledge Architecture:
+  - [x] Create `docs/guides/Multi-LLM_Interaction_Model.md` to document the workflow for loading personas and their knowledge into different LLM environments.
+  - [x] Create `personas/manifests/` directory for persona "knowledge manifests".
+  - [x] Create initial knowledge manifests for core personas (`1.kingdomcraft_steward`, `billing_and_value_steward`, `file_structure_architect`, `system_documentation_steward`).
+  - [x] Update `personas/manifests/1.kingdomcraft_steward.md` to point to the correct MarinBio persona location (`clients/MarinBio/3.marinbio_client_steward_persona.md`).
+  - [x] Review system documentation (e.g., `Multi-LLM_Interaction_Model.md`) for outdated MarinBio persona path references and update them. (Manifest files checked and require no further MarinBio path updates).
+  - [x] Create initial Client Profile directories and core files for specified clients (MarinBio, Voice Automated, Last Crumb, Scraper Sky). *(Note: Done, but prematurely. Strategic alignment and content definition pending `Client_Onboarding_Protocol.md`)*
+  - [x] **Create Handoff Document** summarizing current progress and outstanding items for Phase 1 Persona Knowledge Architecture.
+  - [x] Create Journal Entry for session wrap-up.
+  - [x] Update `journal_index.yml`.
+  - [x] Update `tasks.yml` with session wrap-up task.
+  - [ ] **Define Client Onboarding Strategy & Assets:**
+    - [x] Create `docs/guides/Client_Onboarding_Protocol.md` (detailing information gathering, client questionnaire, procedures for populating client profile documents, transcript collection, and noting that materials are for further analysis by other personas).
+    - [x] Refine `docs/guides/Client_Onboarding_Protocol.md` to explicitly mention transcript collection for deeper analysis by Client Stewards/SMEs and the hierarchical persona model.
+    - [x] Strategically define and create `client_onboarding_specialist_persona.md` (responsible for executing the `Client_Onboarding_Protocol.md`, including awareness that gathered materials feed deeper analysis by other personas).
+    - [x] **Strategically define** the structure and essential content for "Client Profiles" (e.g., `clients/[ClientName]/profile/overview.md`, `brand_guidelines.md`, `executive_team.md`), to be populated by the Onboarding Specialist as per the `Client_Onboarding_Protocol.md`. *(Marked complete based on user feedback that this was covered during protocol/persona creation).*    
+    - [x] Create `transcripts` folder in each client directory (`clients/[ClientName]/transcripts/`).
+    - [x] Integrate user-provided transcript processing documents:
+      - [x] Move `docs/Document X/Meeting Transcipt Document x.md` to `docs/methodologies/Transcript_Analysis_Prompt_Template.md` (or similar).
+      - [x] Move `docs/Document X/Task-Extraction-Framework-1.1.md` to `docs/methodologies/Task_Extraction_Framework_v1.1.md` (or similar).
+  - [x] **Organize Client-Specific Personas (Corrected):**
+    - [x] ~~Create `personas/clients/` subdirectory.~~ (Cancelled - incorrect action)
+    - [x] ~~For each existing and future client (e.g., MarinBio), create a `personas/clients/[ClientName]/` subdirectory.~~ (Cancelled - incorrect action)
+    - [x] Relocate the existing MarinBio Client Steward persona (`personas/3.marinbio_client_steward_persona.md`) to `clients/MarinBio/3.marinbio_client_steward_persona.md`.
+    - [x] Delete the incorrectly created directory `personas/clients/MarinBio/`.
+    - [x] Delete the incorrectly created directory `personas/clients/`.
+    - [x] Delete the original persona file from `personas/3.marinbio_client_steward_persona.md` after successful relocation.
+    - [x] Update `personas/manifests/1.kingdomcraft_steward.md` to point to the correct MarinBio persona location (`clients/MarinBio/3.marinbio_client_steward_persona.md`).
+    - [x] Review other manifest files and system documentation (e.g., `Multi-LLM_Interaction_Model.md`) for outdated MarinBio persona path references and update them. (All checked, no further updates needed for this specific move).
+  - [x] Create initial Client Profile directories and core files for specified clients (MarinBio, Voice Automated, Last Crumb, Scraper Sky). *(Note: Done, but prematurely. Strategic alignment and content definition pending `Client_Onboarding_Protocol.md`)*
+  - [ ] **Strategically define** the enhanced persona boot-up sequence for `docs/guides/Multi-LLM_Interaction_Model.md`, incorporating:
+    - Client context determination.
+    - Loading of Client Profile information (populated by Onboarding Specialist).
+    - Activation sequence for `[ClientName]_client_steward_persona.md` (post-onboarding and profile population).
+  - [ ] **Strategically define** new persona files and their core responsibilities for specialist task-oriented roles:
+    - [ ] `mjml_email_crafter_persona.md`
+    - [ ] `wordpress_mjml_deployer_persona.md`
+    - [ ] `content_to_email_converter_persona.md`
+  - [ ] **Strategically define and then create/complete** knowledge manifests for all active personas. This includes:
+    - `client_onboarding_specialist_persona.md` (references `Client_Onboarding_Protocol.md`).
+    - `[ClientName]_client_steward_persona.md` (references its specific client profile, to be consumed after population by the onboarding specialist).
+    - Specialist task-oriented personas (references relevant guides and client profile elements like brand guidelines).
+    - Existing personas like `1.kingdomcraft_steward_persona.md`, `client_communication_persona.md`, etc., ensuring their manifests are updated for client-awareness and the new onboarding workflow if applicable.
+  - [ ] Confirm chosen format for knowledge manifests (Markdown currently) and ensure consistency.
+  - [ ] Verify all manifest files in `personas/manifests/` correctly point to persona definitions and are concise.
+  - [ ] **Strategically refine and then document** the persona boot-up process in `Multi-LLM_Interaction_Model.md` and individual persona prompts, reflecting the two-stage client knowledge acquisition (Onboarding Specialist -> Client Steward) and specialist persona roles.
+- [ ] Plan for Phase 2 Persona Knowledge Architecture (Vector Database):
+  - [ ] Research and select a suitable vector database technology (Supabase with `pgvector` selected). *(Note: Phase 2 planning paused until Phase 1 is fully solidified)*

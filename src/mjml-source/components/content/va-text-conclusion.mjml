@@ -1,0 +1,7 @@
+<mj-section background-color="#ffffff" padding="35px 25px 50px 25px">
+  <mj-column>
+    <mj-text color="#4a5568" font-size="16px" line-height="1.6">
+      Imagine spending less time on administrative tasks and more time where it matters most – with your patients. With Dragon CoPilot, you can reclaim your time, reduce burnout, and enhance patient care through the power of AI-assisted clinical documentation.
+    </mj-text>
+  </mj-column>
+</mj-section>

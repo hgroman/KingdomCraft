@@ -1,0 +1,21 @@
+<mj-section background-color="#14467b" border-radius="8px" padding="30px" css-class="highlight-section">
+  <mj-column>
+    <mj-text color="#ffffff" font-weight="500" padding-bottom="25px">
+      <strong>Dragon Copilot</strong> isn't just another dictation tool. It's a unified AI experience that combines trusted voice dictation with ambient listening and generative AI, all seamlessly integrated into your EHR. It helps you <strong>save time</strong> on documentation with automated note creation and task automation, <strong>access critical patient information</strong> instantly without interrupting your workflow, and <strong>reduce burnout</strong> by focusing on patient care, not paperwork.
+    </mj-text>
+    <mj-button href="https://voiceautomated.com/dragon-copilot-your-ai-assistant-for-clinical-workflow/"
+               background-color="#2490eb"
+               color="#ffffff"
+               border-radius="30px"
+               font-weight="700"
+               font-size="14px"
+               padding-top="0px"
+               padding-bottom="0px"
+               inner-padding="10px 16px"
+               letter-spacing="0.5px"
+               align="center"
+               width="240px">
+      DISCOVER DRAGON COPILOT
+    </mj-button>
+  </mj-column>
+</mj-section>

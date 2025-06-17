@@ -1,0 +1,26 @@
+<mj-section background-color="#14467b" padding="40px 25px" border-radius="0 0 8px 8px">
+  <mj-column>
+    <mj-text align="center" color="#ffffff" font-size="18px" font-weight="700" padding-bottom="8px">
+      Voice Automated
+    </mj-text>
+    <mj-text align="center" color="#ffffff" font-size="15px" padding-bottom="8px">
+      800-597-6600
+    </mj-text>
+    <mj-text align="center" font-size="15px" padding-bottom="25px">
+      <a href="mailto:support@voiceautomated.com" style="color: #ffffff; text-decoration: underline;">support@voiceautomated.com</a>
+    </mj-text>
+    <mj-divider border-width="1px" border-color="rgba(255, 255, 255, 0.2)" padding="0 0 30px 0" />
+    <mj-social color="#ffffff" font-size="15px" icon-size="22px" mode="horizontal" padding="0 0 30px 0" align="center">
+      <mj-social-element name="linkedin" href="https://www.linkedin.com/company/741789/" background-color="rgba(255, 255, 255, 0.15)" padding="11px">
+      </mj-social-element>
+      <!-- Add other social elements as parameters -->
+    </mj-social>
+    <mj-text align="center" color="rgba(255, 255, 255, 0.8)" font-size="13px" line-height="1.5" font-style="italic" padding="0 0 25px 0">
+      Dragon CoPilot requires compatible EHR systems. Contact us for detailed system requirements and compatibility information. Microsoft Cloud for Healthcare integration provides HIPAA compliance and healthcare-specific safeguards.
+    </mj-text>
+    <mj-divider border-width="1px" border-color="rgba(255, 255, 255, 0.2)" padding="0 0 25px 0" />
+    <mj-text align="center" color="#ffffff" font-size="14px" line-height="1.5" font-weight="500" padding="0">
+      Voice Automated | 30211 Avenida De Las Banderas Suite 200 | Rancho Santa Margarita CA 92688 USA
+    </mj-text>
+  </mj-column>
+</mj-section>

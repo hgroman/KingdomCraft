@@ -1,0 +1,27 @@
+<mj-section background-color="#14467b" border-radius="8px" padding="30px" css-class="special-offer-section">
+  <mj-column>
+    <mj-text align="center" color="#ffffff" font-size="26px" font-weight="700" letter-spacing="-0.01em" text-transform="uppercase" padding-bottom="15px">
+      EXCLUSIVE EARLY ACCESS
+    </mj-text>
+    <mj-text align="center" color="#ffffff" font-size="16px" line-height="1.6" padding-bottom="12px">
+      We're extending exclusive Early Access for clients like you. As an Early Access participant, you'll receive:
+    </mj-text>
+    <!-- Example bullet point. Repeat this mj-table structure for more bullet points -->
+    <mj-table padding-bottom="10px" width="90%">
+      <tr>
+        <td style="vertical-align: top; padding-top: 5px; width: 24px;">
+          <img src="https://img.icons8.com/ios-filled/16/ffffff/checkmark.png" width="16" height="16" alt="Checkmark" style="display: block;" />
+        </td>
+        <td style="padding-left: 10px; color: #ffffff; font-size: 16px; line-height: 1.6;">
+           <strong>Personalized Onboarding</strong> – Customized setup and training tailored to your practice.
+        </td>
+      </tr>
+    </mj-table>
+    <!-- Add more bullet points here by repeating the mj-table structure above -->
+    <mj-text align="center" padding="15px 0 0 0">
+        <span style="background: linear-gradient(135deg, #FFD700, #f8cc00); border-radius: 25px; color: #000000; font-family: sans-serif; font-size: 13px; font-weight: 700; padding: 8px 14px; text-align: center; text-decoration: none; display: inline-block; letter-spacing: 0.5px; box-sizing: border-box; -webkit-text-size-adjust: none; white-space: nowrap;">
+            LIMITED SPOTS AVAILABLE
+        </span>
+    </mj-text>
+  </mj-column>
+</mj-section>

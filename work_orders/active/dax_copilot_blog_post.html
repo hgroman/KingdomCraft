@@ -1,0 +1,267 @@
+<style>
+    :root {
+        --primary-color: #14467b; /* Darker blue from promo system */
+        --primary-light: #2490eb; /* Brighter blue from promo system */
+        --secondary-color: #e7f0fb; /* Lighter blue from promo system */
+        --text-dark: #2d3748;
+        --text-light: #4a5568;
+        --white: #ffffff;
+        --light-gray: #f7f9fc;
+        --border-color: #e2e8f0;
+        --success-color: #38a169;
+        --border-radius: 8px;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+        --shadow-md: 0 4px 6px rgba(0,0,0,0.05);
+        --transition: all 0.3s ease;
+    }
+
+    /* Import Google Fonts inline to avoid external dependencies */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
+    /* Base Styles - specifically scoped to our container to avoid conflicts */
+    .dax-copilot-post {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #2d3748;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 16px;
+    }
+
+    /* Hero Section Styles */
+    .dax-copilot-post .hero {
+        background: linear-gradient(135deg, #14467b 0%, #2490eb 80%, #14467b 100%);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        padding: 40px 30px;
+        text-align: center;
+        color: #ffffff;
+        margin: 0;
+    }
+
+    .dax-copilot-post .hero h1 {
+        font-size: 42px;
+        font-weight: 900;
+        margin: 0 0 20px;
+        letter-spacing: -0.02em;
+        line-height: 1.2;
+        text-transform: uppercase;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    }
+
+    .dax-copilot-post .hero p {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0 0 30px;
+        text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    }
+
+    /* Container Styles */
+    .dax-copilot-post .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+
+    /* Section Styles */
+    .dax-copilot-post section {
+        margin-bottom: 40px;
+    }
+
+    .dax-copilot-post section h2 {
+        color: var(--primary-color);
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 30px;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 10px;
+    }
+
+    .dax-copilot-post section h3 {
+        color: var(--primary-color);
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Highlight Section */
+    .dax-copilot-post .highlight-section {
+        background: linear-gradient(135deg, #14467b 0%, #2490eb 80%, #14467b 100%);
+        border-radius: 8px;
+        padding: 30px;
+        color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        position: relative;
+        overflow: hidden;
+        margin: 30px 0;
+    }
+
+    .dax-copilot-post .highlight-section h3 {
+        color: #ffffff;
+        margin-top: 0;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+    }
+
+    .dax-copilot-post .highlight-section p, .dax-copilot-post .highlight-section a {
+        color: #ffffff;
+    }
+
+    /* Button Styles */
+    .dax-copilot-post .button {
+        display: inline-block;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 30px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+        min-width: 200px;
+        margin: 10px;
+    }
+
+    .dax-copilot-post .button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(36, 144, 235, 0.3);
+    }
+
+    .dax-copilot-post .button-primary {
+        background: linear-gradient(135deg, #14467b, #2490eb);
+        color: #ffffff;
+        box-shadow: 0 10px 20px rgba(20, 70, 123, 0.2);
+    }
+
+    .dax-copilot-post .button-secondary {
+        background: linear-gradient(135deg, #FFD700, #f8cc00);
+        color: #000000;
+        box-shadow: 0 10px 20px rgba(248, 204, 0, 0.2);
+    }
+
+    /* Check Mark List */
+    .dax-copilot-post .check-list {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .dax-copilot-post .check-list li {
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 15px;
+    }
+
+    .dax-copilot-post .check-list li:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 4px;
+        width: 20px;
+        height: 20px;
+        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%2314467b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M22 11.08V12a10 10 0 1 1-5.93-9.14"%3E%3C/path%3E%3Cpolyline points="22 4 12 14.01 9 11.01"%3E%3C/polyline%3E%3C/svg%3E');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 768px) {
+        .dax-copilot-post .hero h1 { font-size: 32px; }
+        .dax-copilot-post .hero p { font-size: 18px; }
+        .dax-copilot-post section h2 { font-size: 26px; }
+    }
+
+</style>
+
+<div class="dax-copilot-post">
+    <div class="container">
+        <section>
+            <p><em>June 11, 2025</em></p>
+            <p>The future of clinical documentation is becoming increasingly sophisticated, and we're excited to share groundbreaking developments in DAX Copilot that will transform how specialty healthcare providers document patient encounters. As a premier partner of Microsoft and trusted provider of DAX Copilot solutions, Voice Automated is thrilled to announce the upcoming release of specialty-specific AI models that represent a quantum leap forward in clinical documentation accuracy and relevance.</p>
+        </section>
+
+        <section>
+            <h2>The Next Evolution in AI-Powered Clinical Documentation</h2>
+            <p>Healthcare is not one-size-fits-all, and neither should clinical documentation be. The new specialty-specific enhancements coming to DAX Copilot recognize that a cardiologist's documentation needs differ significantly from those of an emergency medicine physician or urologist. These advanced AI models are designed to capture the nuanced, specialty-focused content that makes clinical notes not just complete, but truly comprehensive and clinically relevant.</p>
+        </section>
+
+        <section>
+            <h2>Enhanced AI Accuracy Across Critical Documentation Sections</h2>
+            <p>The upcoming specialty-specific models deliver substantial improvements across the most critical sections of clinical documentation:</p>
+            <h3>Assessment and Plan Precision</h3>
+            <p>The Assessment and Plan section will now capture specialty-relevant content with unprecedented clinical specificity. Whether you're documenting complex cardiovascular procedures or intricate urological treatments, the AI understands the clinical context and terminology specific to your specialty, ensuring that your documentation reflects the true complexity and precision of your medical expertise.</p>
+            <h3>Specialty-Focused History of Present Illness</h3>
+            <p>The History of Present Illness section will be enhanced to recognize and document the specific presenting symptoms, patterns, and clinical indicators that matter most within each specialty. This means emergency medicine physicians will see documentation that captures the rapid-fire assessment process, while pain medicine specialists will find their notes better reflect the nuanced symptom descriptions and functional impact assessments critical to their practice.</p>
+            <h3>Targeted Physical Examination Documentation</h3>
+            <p>Physical examination findings will be documented with the level of detail and specificity that each specialty requires. Sports medicine practitioners will find their biomechanical assessments properly captured, while surgical oncologists will see their detailed anatomical findings accurately documented.</p>
+        </section>
+
+        <section>
+            <h2>Intelligent Content Placement Based on Specialty Requirements</h2>
+            <p>One of the most sophisticated aspects of these new models is their ability to intelligently place information in the appropriate section based on both the information source and specialty-specific requirements. When discussing procedures and results, the AI now understands where this content should be documented within each specialty's standard practice patterns.</p>
+            <p>This intelligence was developed based on extensive customer feedback and represents a deep understanding of how different specialties approach clinical documentation. The result is an Assessment and Plan section that provides more precise clinical terminology and better supports specialty-specific diagnosis and treatment documentation.</p>
+        </section>
+
+        <section>
+            <h2>Seven Specialties Leading the Way</h2>
+            <p>The initial release focuses on seven specialties that will benefit from these enhanced AI models:</p>
+            <ul class="check-list">
+                <li><strong>Emergency Medicine</strong> - Optimized for rapid assessment and critical decision-making documentation</li>
+                <li><strong>Nephrology</strong> - Enhanced for complex kidney disease management and dialysis treatment documentation</li>
+                <li><strong>Pain Medicine</strong> - Specialized for comprehensive pain assessment and multimodal treatment planning</li>
+                <li><strong>Pulmonology</strong> - Focused on respiratory system complexities and pulmonary function documentation</li>
+                <li><strong>Sports Medicine</strong> - Tailored for biomechanical assessments and athletic injury management</li>
+                <li><strong>Surgical Oncology</strong> - Optimized for complex surgical procedures and oncological treatment planning</li>
+                <li><strong>Urology</strong> - Enhanced for urological procedures and genitourinary system documentation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Comprehensive DAX Copilot Integration</h2>
+            <p>These enhancements will be available across the full DAX Copilot ecosystem:</p>
+            <ul class="check-list">
+                <li>DAX Copilot standard platform</li>
+                <li>DAX Copilot for Epic integration</li>
+                <li>DAX Copilot embedded in Epic Haiku and Canto</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Best Practices for Implementation</h2>
+            <p>To maximize the benefits of these new specialty-specific models, we recommend reviewing the initial specialty note without AI styles or custom templates. This allows you to see the full impact of the specialty-specific enhancements before applying your preferred formatting and templates.</p>
+            <p>The specialty optimization is automatically determined by the primary specialty selected in the DAX system, making it essential to verify that clinician specialty selections are accurate as these options continue to expand.</p>
+        </section>
+
+        <section class="highlight-section">
+            <h3>The Voice Automated Advantage</h3>
+            <p>As your trusted partner in implementing DAX Copilot solutions, Voice Automated is committed to ensuring you're positioned to take full advantage of these groundbreaking enhancements. Our team of healthcare technology specialists understands the unique documentation challenges facing each specialty and can help optimize your DAX Copilot implementation to maximize the benefits of these new AI models.</p>
+        </section>
+
+        <section>
+            <h2>Looking Ahead: The Future of Specialty-Specific AI</h2>
+            <p>This release represents just the beginning of specialty-specific AI enhancements for DAX Copilot. As Microsoft continues to refine and expand these models based on real-world usage and clinician feedback, we can expect to see even more specialties added and existing models further refined.</p>
+            <p>The implications extend beyond just better documentation. More accurate, comprehensive clinical notes support better patient care, more precise coding and billing, enhanced clinical research capabilities, and improved continuity of care across healthcare teams.</p>
+        </section>
+
+        <section>
+            <h2>Ready to Experience the Future of Clinical Documentation?</h2>
+            <p>These specialty-specific enhancements represent a significant advancement in AI-powered clinical documentation, offering healthcare providers the most sophisticated and relevant documentation assistance available today. As these features become available, Voice Automated will be ready to help you implement and optimize these capabilities within your practice.</p>
+            <p>For more information about how DAX Copilot's specialty-specific models can transform your clinical documentation workflow, or to discuss implementation strategies for your specialty practice, contact Voice Automated today.</p>
+        </section>
+
+        <section class="highlight-section" style="text-align: center;">
+            <h3>Ready to explore DAX Copilot for your specialty practice?</h3>
+            <p style="margin-bottom: 5px;"><strong>Call us:</strong> 800-597-6600</p>
+            <p style="margin-top: 5px; margin-bottom: 20px;"><strong>Visit:</strong> <a href="https://www.voiceautomated.com" target="_blank" style="color: white; text-decoration: underline;">www.voiceautomated.com</a></p>
+            <a href="https://www.voiceautomated.com/dax-copilot-dragon-ambient-experience/" target="_blank" class="button button-secondary">Begin your DAX Copilot journey today</a>
+        </section>
+
+        <section style="border-top: 1px solid var(--border-color); padding-top: 20px;">
+            <p style="text-align: center; font-size: 14px; color: var(--text-light);"><em>Voice Automated has been empowering healthcare providers with advanced speech recognition and clinical documentation solutions for over 25 years. As a premier Microsoft partner, we specialize in implementing DAX Copilot and Dragon Medical One solutions that transform clinical workflows and improve patient care outcomes.</em></p>
+        </section>
+    </div>
+</div>

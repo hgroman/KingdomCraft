@@ -1,0 +1,10 @@
+<!-- Row 12: Manage Preferences and Company Details -->
+<mj-section background-color="#ffffff" padding="5px 0">
+  <mj-column>
+    <mj-divider border-color="#dddddd" padding="10px 0" />
+    <mj-text align="center" padding="10px" font-size="12px">
+      <p><a class="hubspot-mergetag" style="text-decoration: underline; white-space: nowrap; color: #294a89;" href="{{ unsubscribe_link }}" data-unsubscribe="true">Manage your email preferences</a></p>
+      <p style="font-size: 12px;">{{ site_settings.company_name }} | {{ site_settings.company_street_address_1 }} | {{ site_settings.company_city }} {{ site_settings.company_state }} {{ site_settings.company_zip }} {{ site_settings.company_country }}</p>
+    </mj-text>
+  </mj-column>
+</mj-section>

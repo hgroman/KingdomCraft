@@ -1,3 +1,9 @@
+- id: 20250617_115400_TASK_KC001
+  date: "2025-06-17"
+  task_id: "TASK_KC001"
+  summary: "System rebrand from EmailForge to KingdomCraft complete."
+  link: "./JE_20250617_115400_TASK_KC001_SystemRebrandComplete.md"
+
 - id: 20250617_110757_TASK_KC001
   date: "2025-06-17"
   task_id: "TASK_KC001"

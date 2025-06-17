@@ -48,3 +48,8 @@ venv/
 
 # Archived legacy files not to be tracked
 Archive-Legacy_ARCHIVED_20250611/
+
+# Ignore temporary MS Office files
+~$*.docx
+~$*.xlsx
+~$*.pptx
